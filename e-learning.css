@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  header>nav{
+    background-color: beige;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.379);
+  
+  }
+  nav>h1{
+    color:rgb(119, 43, 186) ;
+  }
+  nav>.left-section{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    
+    
+  }
+  nav>.left-section>a{
+    text-decoration: none;
+    color: rgb(178, 114, 234);
+  
+  
+  }
+  nav>.left-section>a:hover{
+    color: white;
+    background-color: rgb(178, 114, 234);
+    padding: 8px;
+    border-radius: 12px;
+
+  }
+  nav>.right-section{
+    width: 40%;
+    height: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+  nav>.right-section>a{
+    text-decoration: none;
+    color: rgb(178, 114, 234);
+    
+  
+  }
+  nav>.right-section>a:hover{
+    color: white;
+    background-color: rgb(178, 114, 234);
+    padding: 8px;
+    border-radius: 12px;
+
+  }
+  .mid-section{
+    color: white;
+    background-image: linear-gradient(135deg,rgb(206, 117, 234) 15%,rgb(119, 33, 151) 60%);
+    width: 100%;
+    height: 100vh;
+
+  }
+  .mid-section>h1{
+    text-align: center;
+    font-size: 50PX;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 20%;
+  }
+  .mid-section>h2{
+    text-align: center;
+    position:relative;
+    top: 22%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .mid-section>input{
+    display: block;
+    position: relative;
+    
+    height: 100px;
+    width: 30%;
+    background-color: gray;
+    border: 12px solid black;
+  }
+  input{
+    font-size: 19px;
+    border-radius: 12px;
+    border: none;
+    padding: 3px 10px;
+    position: relative;
+    top: 5%;
+    margin-top: 10px;
+
+    
+  }
+  .searchbar{
+    display: block;
+    height: 100%;
+    width: 4%;
+    position: relative;
+    right: 3%;
+    margin-top: 8px;
+    color: white;
+    font-size: 30px;
+    background-color:rgb(178, 114, 234) ;
+    border-radius: 2px 12px 12px 2px;
+  
+
+  }
+  #promo{
+    color: white;
+    position: relative;
+    top: 25%;
+  }
+  .mid-section>a{
+    color: white;
+    font-size: 21px;
+     position: relative; 
+    top: 30%;
+    left: 43%;
+  }
